@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FACILITIES PROVISION SURVEY</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+<div class="formbold-main-wrapper">
+  <!-- Author: FormBold Team -->
+  <!-- Learn More: https://formbold.com -->
+  <div class="formbold-form-wrapper">
+    <img src="your-image-url-here.jpg">
+    <header>
+      <h1>FACILITIES PROVISION SURVEY</h1>
+      <hr>
+      <p class="header-paragraph">The operation Facility Unit has embarked on survey to examine the standards of services the unit has been providing and to note areas that requires improvement. In that regards we would therefore like to engage you as our internal customer to provide feedback on the services that we have been providing. We value your feedback and would appreciate at your convenience taking a few minutes to fill out the survey as it will allow us to continue to improve while providing the best possible service. </p>
+      <hr>
+    </header>
+  </div>
+  <div class="formbold-form-wrapper">  
+
+    <form action="dbconn.php" method="POST">
+      <div class="formbold-input-group">
+      <p>
+        
+          Please rate your satisfaction of the aspects below from 1 to 5.
+          <ol>
+            <li>Very dissatisfied</li>
+            <li>Dissatisfied</li>
+            <li>Neutral</li>
+            <li>Satisfied</li>
+            <li>Very satisfied</li>
+          </ol><br>
+          
+          <h3 name = "Qname" value = "Cleanliness of Facilities">1.<strong>Cleanliness of Facilities</strong></h3>
+          <table name="table_1">
+            <tr>
+              <th class="first-col"></th>
+              <th>1</th>
+              <th>2</th>
+              <th>3</th>
+              <th>4</th>
+              <th>5</th>              
+            </tr>
+            <tr>
+              <td class="first-col" value = "offices" name = table_row#1>Offices</td>
+              <td><input type="radio" value=1 name="point#1" /></td>
+              <td><input type="radio" value=2 name="point#1" /></td>
+              <td><input type="radio" value=3 name="point#1" /></td>
+              <td><input type="radio" value=4 name="point#1" /></td>
+              <td><input type="radio" value=5 name="point#1" /></td>
+            </tr>
+            <tr>
+              <td class="first-col" value = "Reception" name = table_row#2>Reception</td>
+              <td><input type="radio" value=1 name="point#2" /></td>
+              <td><input type="radio" value=2 name="point#2" /></td>
+              <td><input type="radio" value=3 name="point#2" /></td>
+              <td><input type="radio" value=4 name="point#2" /></td>
+              <td><input type="radio" value=5 name="point#2" /></td>
+            </tr>
+            <tr>
+              <td class="first-col" value = "Ablutions" name = table_row#3>Ablutions</td>
+              <td><input type="radio" value=1 name="point#3" /></td>
+              <td><input type="radio" value=2 name="point#3" /></td>
+              <td><input type="radio" value=3 name="point#3" /></td>
+              <td><input type="radio" value=4 name="point#3" /></td>
+              <td><input type="radio" value=5 name="point#3" /></td>
+            </tr>
+            <tr>
+              <td class="first-col" value = "Surroundings/Grounds" name = table_row#1>Surroundings/Grounds</td>
+              <td><input type="radio" value=2 name="point#4" /></td>
+              <td><input type="radio" value=2 name="point#4" /></td>
+              <td><input type="radio" value=3 name="point#4" /></td>
+              <td><input type="radio" value=4 name="point#4" /></td>
+              <td><input type="radio" value=5 name="point#4" /></td>
+            </tr>
+            <tr>
+              <td class="first-col" value = "Cafeteria" name = table_row#>Cafeteria</td>
+              <td><input type="radio" value="none" name="point#5" /></td>
+              <td><input type="radio" value="none" name="point#5" /></td>
+              <td><input type="radio" value="none" name="point#5" /></td>
+              <td><input type="radio" value="none" name="point#5" /></td>
+              <td><input type="radio" value="none" name="point#5" /></td>
+            </tr>
+            <tr>
+              <td class="first-col" value = "Kitchen" name = table_row#1>Kitchen</td>
+              <td><input type="radio" value="none" name="point#5" /></td>
+              <td><input type="radio" value="none" name="point#5" /></td>
+              <td><input type="radio" value="none" name="point#5" /></td>
+              <td><input type="radio" value="none" name="point#5" /></td>
+              <td><input type="radio" value="none" name="point#5" /></td>
+            </tr>
+            <tr>
+              <td class="first-col" value = "Garbage Area" name = table_row#1>Garbage Area</td>
+              <td><input type="radio" value="none" name="point#5" /></td>
+              <td><input type="radio" value="none" name="point#5" /></td>
+              <td><input type="radio" value="none" name="point#5" /></td>
+              <td><input type="radio" value="none" name="point#5" /></td>
+              <td><input type="radio" value="none" name="point#5" /></td>
+            </tr>
+          </table>
+        </p>
+        <p>
+          <br>
+          <h3>2.<strong>Offices/Buildings</strong></h3>
+          <table>
+            <tr>
+              <th class="first-col"></th>
+              <th>1</th>
+              <th>2</th>
+              <th>3</th>
+              <th>4</th>
+              <th>5</th>              
+            </tr>
+            <tr>
+              <td class="first-col">Office Space Allocation</td>
+              <td><input type="radio" value="none" name="point#1" /></td>
+              <td><input type="radio" value="none" name="point#1" /></td>
+              <td><input type="radio" value="none" name="point#1" /></td>
+              <td><input type="radio" value="none" name="point#1" /></td>
+              <td><input type="radio" value="none" name="point#1" /></td>
+            </tr>
+            <tr>
+              <td class="first-col">Adequate indoor lighting</td>
+              <td><input type="radio" value="none" name="point#2" /></td>
+              <td><input type="radio" value="none" name="point#2" /></td>
+              <td><input type="radio" value="none" name="point#2" /></td>
+              <td><input type="radio" value="none" name="point#2" /></td>
+              <td><input type="radio" value="none" name="point#2" /></td>
+            </tr>
+            <tr>
+              <td class="first-col">Adequate outdoor lighting around the facility</td>
+              <td><input type="radio" value="none" name="point#3" /></td>
+              <td><input type="radio" value="none" name="point#3" /></td>
+              <td><input type="radio" value="none" name="point#3" /></td>
+              <td><input type="radio" value="none" name="point#3" /></td>
+              <td><input type="radio" value="none" name="point#3" /></td>
+            </tr>
+            <tr>
+              <td class="first-col">Adequate ventilation in the offices</td>
+              <td><input type="radio" value="none" name="point#4" /></td>
+              <td><input type="radio" value="none" name="point#4" /></td>
+              <td><input type="radio" value="none" name="point#4" /></td>
+              <td><input type="radio" value="none" name="point#4" /></td>
+              <td><input type="radio" value="none" name="point#4" /></td>
+            </tr>
+            <tr>
+              <td class="first-col">Adequate water supply</td>
+              <td><input type="radio" value="none" name="point#5" /></td>
+              <td><input type="radio" value="none" name="point#5" /></td>
+              <td><input type="radio" value="none" name="point#5" /></td>
+              <td><input type="radio" value="none" name="point#5" /></td>
+              <td><input type="radio" value="none" name="point#5" /></td>
+            </tr>
+            <tr>
+              <td class="first-col">Adequate ablution facilities</td>
+              <td><input type="radio" value="none" name="point#8" /></td>
+              <td><input type="radio" value="none" name="point#8" /></td>
+              <td><input type="radio" value="none" name="point#8" /></td>
+              <td><input type="radio" value="none" name="point#8" /></td>
+              <td><input type="radio" value="none" name="point#8" /></td>
+            </tr>
+            <tr>
+              <td class="first-col">Condition and appearance of buildings interiors</td>
+              <td><input type="radio" value="none" name="point#6" /></td>
+              <td><input type="radio" value="none" name="point#6" /></td>
+              <td><input type="radio" value="none" name="point#6" /></td>
+              <td><input type="radio" value="none" name="point#6" /></td>
+              <td><input type="radio" value="none" name="point#6" /></td>
+            </tr>
+            <tr>
+              <td class="first-col">Condition and appearance of buildings’ exteriors</td>
+              <td><input type="radio" value="none" name="point#7" /></td>
+              <td><input type="radio" value="none" name="point#7" /></td>
+              <td><input type="radio" value="none" name="point#7" /></td>
+              <td><input type="radio" value="none" name="point#7" /></td>
+              <td><input type="radio" value="none" name="point#7" /></td>
+            </tr>
+          </table>
+        </p>
+        <P>
+        <br>
+        <h3>3.<strong>Office furniture/fittings and Equipment </strong></h3>
+        <table>
+          <tr>
+            <th class="first-col"></th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>              
+          </tr>
+          <tr>
+            <td class="first-col">Condition of office furniture (tables, chairs, pedestals, credenzas, work stations etc.)</td>
+            <td><input type="radio" value="none" name="point#1" /></td>
+            <td><input type="radio" value="none" name="point#1" /></td>
+            <td><input type="radio" value="none" name="point#1" /></td>
+            <td><input type="radio" value="none" name="point#1" /></td>
+            <td><input type="radio" value="none" name="point#1" /></td>
+          </tr>
+          <tr>
+            <td class="first-col">Quality of office furniture</td>
+            <td><input type="radio" value="none" name="point#2" /></td>
+            <td><input type="radio" value="none" name="point#2" /></td>
+            <td><input type="radio" value="none" name="point#2" /></td>
+            <td><input type="radio" value="none" name="point#2" /></td>
+            <td><input type="radio" value="none" name="point#2" /></td>
+          </tr>
+          <tr>
+            <td class="first-col">Adequate office furniture</td>
+            <td><input type="radio" value="none" name="point#3" /></td>
+            <td><input type="radio" value="none" name="point#3" /></td>
+            <td><input type="radio" value="none" name="point#3" /></td>
+            <td><input type="radio" value="none" name="point#3" /></td>
+            <td><input type="radio" value="none" name="point#3" /></td>
+          </tr>
+          <tr>
+            <td class="first-col">Adequate office equipment (air conditioners, dispensers, printers etc.)</td>
+            <td><input type="radio" value="none" name="point#4" /></td>
+            <td><input type="radio" value="none" name="point#4" /></td>
+            <td><input type="radio" value="none" name="point#4" /></td>
+            <td><input type="radio" value="none" name="point#4" /></td>
+            <td><input type="radio" value="none" name="point#4" /></td>
+          </tr>
+          
+        </table>
+        
+      </p>
+      <P>
+        <h3>4.<strong>Repair and Maintenance Issues (Faults) </strong></h3>
+        <table>
+          <tr>
+            <th class="first-col"></th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>              
+          </tr>
+          <tr>
+            <td class="first-col">Timeliness- Response Time and feedback from Facilities staff</td>
+            <td><input type="radio" value="none" name="point#1" /></td>
+            <td><input type="radio" value="none" name="point#1" /></td>
+            <td><input type="radio" value="none" name="point#1" /></td>
+            <td><input type="radio" value="none" name="point#1" /></td>
+            <td><input type="radio" value="none" name="point#1" /></td>
+          </tr>
+          <tr>
+            <td class="first-col">Thorough resolution of faults</td>
+            <td><input type="radio" value="none" name="point#2" /></td>
+            <td><input type="radio" value="none" name="point#2" /></td>
+            <td><input type="radio" value="none" name="point#2" /></td>
+            <td><input type="radio" value="none" name="point#2" /></td>
+            <td><input type="radio" value="none" name="point#2" /></td>
+          </tr>
+        </table>
+      </P>
+      <P>
+        <br>
+        <h3>5.<strong>Facilities Staff</strong></h3>
+        <table>
+          <tr>
+            <th class="first-col"></th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>              
+          </tr>
+          <tr>
+            <td class="first-col">Conduct of Facilities staff (attitude, professionalism and courtesy)</td>
+            <td><input type="radio" value="none" name="point#1" /></td>
+            <td><input type="radio" value="none" name="point#1" /></td>
+            <td><input type="radio" value="none" name="point#1" /></td>
+            <td><input type="radio" value="none" name="point#1" /></td>
+            <td><input type="radio" value="none" name="point#1" /></td>
+          </tr>
+        </table>
+      </P>
+      <P><br>
+        <h3>6.<strong>Other</strong></h3>
+        <table>
+          <tr>
+            <th class="first-col"></th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>              
+          </tr>
+          <tr>
+            <td class="first-col">Availability and arrangement of Meeting/Conference Rooms</td>
+            <td><input type="radio" value="none" name="point#1" /></td>
+            <td><input type="radio" value="none" name="point#1" /></td>
+            <td><input type="radio" value="none" name="point#1" /></td>
+            <td><input type="radio" value="none" name="point#1" /></td>
+            <td><input type="radio" value="none" name="point#1" /></td>
+          </tr>
+          <tr>
+            <td class="first-col">Provision of consumables (water and refreshments)</td>
+            <td><input type="radio" value="none" name="point#2" /></td>
+            <td><input type="radio" value="none" name="point#2" /></td>
+            <td><input type="radio" value="none" name="point#2" /></td>
+            <td><input type="radio" value="none" name="point#2" /></td>
+            <td><input type="radio" value="none" name="point#2" /></td>
+          </tr>
+        </table>
+      </P>
+      <p><br>
+        <h3>7.<strong>Your overall satisfaction with facilities provision</strong></h3>
+        <table>
+          <tr>
+            <th class="first-col"></th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>              
+          </tr>
+          <tr>
+            <td class="first-col">What do you appreciate most about the facilities? Please comment briefly below.</td>
+            <td><input type="radio" value="none" name="point#1" /></td>
+            <td><input type="radio" value="none" name="point#1" /></td>
+            <td><input type="radio" value="none" name="point#1" /></td>
+            <td><input type="radio" value="none" name="point#1" /></td>
+            <td><input type="radio" value="none" name="point#1" /></td>
+          </tr>
+          <tr>
+            <td class="first-col">Are there any additional facilities that should have been provided? Please list them below.</td>
+            <td><input type="radio" value="none" name="point#2" /></td>
+            <td><input type="radio" value="none" name="point#2" /></td>
+            <td><input type="radio" value="none" name="point#2" /></td>
+            <td><input type="radio" value="none" name="point#2" /></td>
+            <td><input type="radio" value="none" name="point#2" /></td>
+          </tr>
+          <tr>
+            <td class="first-col">How can we improve our services? Comment briefly below.</td>
+            <td><input type="radio" value="none" name="point#3" /></td>
+            <td><input type="radio" value="none" name="point#3" /></td>
+            <td><input type="radio" value="none" name="point#3" /></td>
+            <td><input type="radio" value="none" name="point#3" /></td>
+            <td><input type="radio" value="none" name="point#3" /></td>
+          </tr>
+        </table>
+      </p>      
+    </P> 
+      <button class="formbold-btn">Submit</button>
+    </form>
+  </div>
+</div>
+</body>
+</html>
